@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contact {
+    background-color: purple;
+    padding: 5px;
+    padding-left: 30px;
+    margin-right: 900px;
+}
