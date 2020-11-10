@@ -1,27 +1,33 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
         <title>Alyson Marques - Currículo</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Alyson Marques da Silva</h1>
+
         <div class="contact">
             <p>Abreu e Lima<br/>
             alsmrqs@outlook.com<br/>
             github.com/alsmrqs<br/>
             81 995551845<br/></p>
         </div>
+
         <hr align="left" width="250px"/>
+
         <!-- Seção Objetivos profissionais -->
         <div>
             <h3>OBJETIVO</h3>
             <p>Buscando vagas de desenvolvedor ou analista júnior</p>
         </div>
+
         <!-- Seção Experiências Profissionais-->
         <div>
             <h3>EXPERIÊNCIA</h3>
             <p>Projetos paralelos</p>
         </div>
+
         <!-- Seção Projetos Paralelos -->
         <div>
             <h3>PROJETOS PARALELOS</h3>
@@ -29,23 +35,49 @@
             - Aplicação de contagem de caracteres e strings arquivos de texto. ( Java 7 / Swing ) <br/>
             github.com/alsmrqs</p>
         </div>
+
         <!-- Seção Educação -->
         <div>
             <h3>EDUCAÇÃO</h3>
             <p>Ciência da Computação - UNINASSAU - conclusão 2022</p>
         </div>
+
         <!-- Seção Habilidades técnicas -->
         <div>
             <h3>HABILIDADES TÉCNICAS</h3>
             <ul>
                 <li>Java</li>
                 <li>MySQL</li>
-                <li>Git/GitHub</li>
-            </ul>
-        </div>
+                <li>Git/GitHub</li> 
+            </ul> 
+        </div> 
         <div>
             <h3>COMPETÊNCIAS</h3>
             <p>Inglês Avançado</p>
         </div>
+            
+        <script>
+            console.log('Caso você seja um desenvolvedor, seja bem vindo!');
+
+            // Atribuir nota ao currículo
+            var textElement = document.createTextNode('Deixe uma nota de 0 a 10: ');
+            var inputElement = document.createElement('input');
+            var btnElement = document.createElement('button');
+            btnElement.appendChild(document.createTextNode('Enviar'));
+
+            var containerElement = document.querySelector('body');
+            containerElement.appendChild(textElement);
+            containerElement.appendChild(inputElement);
+            containerElement.appendChild(btnElement);
+            
+            btnElement.onclick = function () {
+                var inputValue = inputElement.value;
+                
+                if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 10)
+                    alert('Curriculo avaliado com nota '+ inputValue +' \nObrigado por sua avaliação!!');
+                else   
+                    alert('Digite um número entre 0 e 10');
+            }
+        </script>
     </body>
 </html>
