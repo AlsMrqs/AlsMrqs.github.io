@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    border-radius: 20px;
+    padding: 50px;
+    margin: 50px; 
+}
+
+a {
+    color: chartreuse;
+}
