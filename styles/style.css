@@ -5,19 +5,35 @@ body {
 
 div {
     border-radius: 20px;
-    border-color: aliceblue;
     padding: 9px;
     margin: 6px; 
     margin-bottom: 0px;
     padding-bottom: 0px;
     line-height: 3px;
+    border-style: solid;
+    border-color: aliceblue;
+    border: 3px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
     color: chartreuse;
 }
 
+h1 {
+    margin-left: 9px;
+}
+
 p {
     font-size: small;
-    margin-left: 3px;
+    margin-left: 9px;
+}
+
+.logo {
+    color: green;
+    border-style: solid;
+    border: 3px;
+}
+
+.font {
 }
