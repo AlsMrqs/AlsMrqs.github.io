@@ -6,10 +6,18 @@ body {
 div {
     border-radius: 20px;
     border-color: aliceblue;
-    padding: 25px;
-    margin: 25px; 
+    padding: 9px;
+    margin: 6px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 3px;
 }
 
 a {
     color: chartreuse;
+}
+
+p {
+    font-size: small;
+    margin-left: 3px;
 }
