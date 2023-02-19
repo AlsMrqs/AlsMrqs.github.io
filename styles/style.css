@@ -5,8 +5,9 @@ body {
 
 div {
     border-radius: 20px;
-    padding: 50px;
-    margin: 50px; 
+    border-color: aliceblue;
+    padding: 25px;
+    margin: 25px; 
 }
 
 a {
