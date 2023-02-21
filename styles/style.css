@@ -1,7 +1,11 @@
 body {
+    font-family: 'Ubuntu', sans-serif;
     background-color: black;
-    color: white;
+    color: #00ff00;
+    /*color: green;*/
 }
+
+
 
 div {
     border-radius: 20px;
@@ -13,11 +17,10 @@ div {
     border-style: solid;
     border-color: aliceblue;
     border: 3px;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
-    color: chartreuse;
+    /*color: chartreuse;*/
 }
 
 h1 {
@@ -25,15 +28,13 @@ h1 {
 }
 
 p {
-    font-size: small;
+    /*font-size: small*/;
     margin-left: 9px;
+    margin-up: 9px;
 }
 
 .logo {
-    color: green;
     border-style: solid;
     border: 3px;
 }
 
-.font {
-}
