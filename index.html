@@ -1,5 +1,6 @@
 <html>
 <head> <title>naturefx</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head><body>
     <div>
         <img src="https://i.pinimg.com/564x/d7/a0/e1/d7a0e1bba2a89db69b19d780a05c9091.jpg" width="300px" border="1px" alt="kakashi">
@@ -8,20 +9,27 @@
             const x = Math.round(Math.random() * 100)
             const y = Math.round(Math.random() * 100)
 
-            sum("")
+            //sum("")
+            search_("",x)
 
-            function sum(str) {
-                var s = window.prompt(str + "   " + x + "\n + " + y + "\n-------  ")
+            function sum(Str) {
+                var s = window.prompt(Str + "   " + x + "\n + " + y + "\n-------  ")
 
-                if (s == (x + y)) { 
-                    alert("Great!!")
-                } else 
-                    sum("Wrong!!\n") 
-
+                if (s == (x + y)) alert("Great!!") 
+                else sum("Wrong!!\n") 
+                location.reload()
             }
 
-            location.reload()
+            function search_(Str, Int) {
+                var s = window.prompt(Str + "x = ? ")
+
+                if (s == Int) { alert("Great!!") }
+                else {
+                    let ord = (s > Int) ? ("x" + " < " + s) : (s + " < " + "x")
+                    search_(ord + "\n", Int)
+                }
+                location.reload()
+            }
         </script>
     </div>
 </body></html>
-
