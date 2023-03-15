@@ -1,28 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><title>naturefx</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
-<body>
-    <div class="logo">
-        <h5>Engenharia da Computação</h5>
-        <h1>naturefx</h1></div>
-    <br>
+<html>
+<head> <title>naturefx</title>
+</head><body>
     <div>
-        <h1 style="text-align: center;">- tipos primitivos -</h1>
-        <br>
-        <pre>
-        <p>Int    - números inteiros</p>
-        <p>Float  - números decimais</p>
-        <p>Double - números decimais com maior precisão </p>
-        <p>Bool   - verdadeiro ou falso</p>
-        <p>Char   - caracteres</p>
-</body>
-</html>
+        <img src="https://i.pinimg.com/564x/d7/a0/e1/d7a0e1bba2a89db69b19d780a05c9091.jpg" width="300px" border="1px" alt="kakashi">
+        <h3>Encontre o número!</h3>
+        <script>
+            const x = Math.round(Math.random() * 100)
+            const y = Math.round(Math.random() * 100)
+
+            sum("")
+
+            function sum(str) {
+                var s = window.prompt(str + "   " + x + "\n + " + y + "\n-------  ")
+
+                if (s == (x + y)) { alert("Great!!") } 
+                else { sum("Wrong!!\n") }
+            }
+        </script>
+    </div>
+</body></html>
 
