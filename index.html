@@ -1,38 +1,6 @@
 <html>
-<head> <title>naturefx</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head><body>
-    <div>
-        <img src="https://i.pinimg.com/564x/d7/a0/e1/d7a0e1bba2a89db69b19d780a05c9091.jpg" width="300px" border="1px" alt="kakashi">
-        <h3>Encontre o número!</h3>
-        <script>
-            let [a,b] = [Math.round(Math.random() * 100), Math.round(Math.random() * 100)] 
-
-            sum("", a, b, 1)
-            //search_("", x, 0)
-
-            function sum(Str, Int, _Int, i) {
-                var s = window.prompt(Str + "   " + Int + "\n + " + _Int + "\n-------  ")
-                if (s == (Int + _Int)) {
-                    alert("Boa !! Tentativas " + i + "") 
-                    let a = Math.round(Math.random() * 100)
-                    search_("", a, 1)
-                } else  {
-                    sum("Errado!!\n", Int, _Int, i+1) 
-                }
-            }
-
-            function search_(Str, Int, i) {
-                var s = window.prompt(Str + "x = ? ")
-                if (s == Int)  {
-                    alert("Boa !! Tentativas " + i) 
-                    location.reload()
-                } else {
-                    let ord = (s > Int) ? ("x" + " < " + s) : (s + " < " + "x")
-                    search_(Str + "|" + ord + "\n", Int, i+1)
-                    
-                }
-            }
-        </script>
-    </div>
+<head><title></title></head>
+<body>
+    <a href="naturefx/index.html">naturefx</a>
+    <a href="thmake/index.html">thmake</a>
 </body></html>
