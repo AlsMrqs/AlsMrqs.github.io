@@ -1,5 +1,17 @@
 body {
-    text-align: center;
     background-color: black;
     color: green;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+img {
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+}
+
+div.book-cover {
+    margin: 200px 3px 10px 3px;
+}
+
