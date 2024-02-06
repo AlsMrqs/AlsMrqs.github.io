@@ -1,25 +1,39 @@
 body {
     background-color: black;
-    color: #15feee;
+    /*color: #14ffed;*/
+    color: white;
     font-family: 'Ubuntu', sans-serif;
+    padding: 2px 2px 2px 2px;
 }
 
-a:link {
+div.objective p {
+    text-align: center;
+    color: gray;
+}
+
+div.interface {
     color: yellow;
 }
 
-a:visited {
-    color: #227e9e;
+li {
+    color: purple;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+a.source {
+    color: gray;
 }
 
 hr {
     border: 1px solid #720e9e;
-}
-
-img {
-    border-style: solid;
-    border-color: #227e9e;
-    border-width: 3px;
 }
 
 p {
