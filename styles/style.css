@@ -11,21 +11,29 @@ div.objective p {
     color: gray;
 }
 
+div.category p {
+    text-align: center;
+    color: #227e9e;
+}
+
 div.interface {
     color: yellow;
+    border: 1px solid white; /* !(apagar) - apenas para noção */
 }
 
 li {
-    color: purple;
+    color: gray;
 }
 
 a {
-    color: yellow;
+    color: #14ffed;
+    /*color: cyan;*/
+    /*color: yellow;*/
     text-decoration: none;
 }
 
 a:hover {
-    color: green;
+    color: yellow;
 }
 
 a.source {
@@ -37,5 +45,11 @@ hr {
 }
 
 p {
-    color: #227e9e;
+    /*color: #227e9e;*/
+    color: gray;
+}
+
+h3.title {
+    /*color: #227e9e;*/
+    color: #888888;
 }
