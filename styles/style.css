@@ -19,6 +19,7 @@ div.category p {
 div.interface {
     color: yellow;
     border: 1px solid white; /* !(apagar) - apenas para noção */
+    padding-left: 6px;
 }
 
 li {
@@ -37,7 +38,7 @@ a:hover {
 }
 
 a.source {
-    color: gray;
+    color: #222222;
 }
 
 hr {
