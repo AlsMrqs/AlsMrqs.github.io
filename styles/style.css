@@ -10,10 +10,20 @@ body {
     display: flex;
     justify-content: center; /* centraliza horizontalmente */
     align-items: center;     /* centraliza verticalmente */
-    height: 100vh;           /* altura total da viewport */
+    height: auto; /*150vh;           /* altura total da viewport */
     margin: 0;               /* remove margens padrão *//
 }
 
 .subliminar {
     color: #333333;
+}
+
+.latex {
+    border: 1px solid white;
+    /*border-radius: 50px;*/
+}
+
+.book-link {
+    text-decoration: none;
+    color: gray;
 }
