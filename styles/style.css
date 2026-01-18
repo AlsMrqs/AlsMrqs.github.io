@@ -1,29 +1,25 @@
 body {
+    color: #cccccc;
     background-color: black;
-    color: #888888 ; 
-    
-    text-align: center;
-
-    font-family: "Ubuntu", sans-serif;
+    /* font-family: "Ubuntu", sans-serif; */
     font-style: normal;
+    font-size: 16px;
 
-    display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    align-items: center;     /* centraliza verticalmente */
-    height: auto; /*150vh;           /* altura total da viewport */
-    margin: 0;               /* remove margens padrão *//
+    /*margin: 0;
+    padding: 2px; */
 }
 
-.subliminar {
-    color: #333333;
+.login {
+     display: grid;
+     place-items: center;
 }
 
-.latex {
-    border: 1px solid white;
-    /*border-radius: 50px;*/
-}
-
-.book-link {
-    text-decoration: none;
+a {
     color: gray;
+    text-decoration: none;
+}
+
+.cornered {
+    padding: 3px 18px 3px 18px;
+    border: 1px solid gray;
 }
